@@ -1,2 +1,2 @@
 
-simple static sit using git hub pages
+simple static site using git hub pages
