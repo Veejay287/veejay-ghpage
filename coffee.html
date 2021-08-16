@@ -7,27 +7,42 @@
     <title>Veejay | Lets Coffee</title>
 
     <!-- Add a CSS file here-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Slab|Yomogi
+    ">
+
+
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/1cd4ec7dfa.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-    <p>This is coffee page</p>
+    <div class="main-container">
+            <p style="font-size: 30px;">Let's have a coffee!
+                <i class="fas fa-coffee" style="color:gray; font-size: 20px;vertical-align: middle;"></i
+            </p>
 
-  <form
-  action="https://formspree.io/f/xqkwgpwv"
-  method="POST"
-    >
-    <label>
-        Your email:
-        <input type="email" name="_replyto">
-    </label>
-    <label>
-        Your message:
-        <textarea name="message"></textarea>
-    </label>
-  <!-- your other form fields go here -->
-    <button type="submit">Send</button>
-  </form>
+        <form
+        action="https://formspree.io/f/xqkwgpwv"
+        method="POST"
+            >
+            <label>
+                Your email:
+                <input type="email" name="_replyto" required>
+            </label>
+            <label>
+                Your message:
+                <textarea name="message" required></textarea>
+            </label>
+        <!-- your other form fields go here -->
+            <button type="submit" class="submit-btn">Send</button>
+        </form>
+
+        <div style="margin-top: 50px">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
 
 </body>
 </html>
